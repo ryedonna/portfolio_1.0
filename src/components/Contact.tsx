@@ -9,12 +9,12 @@ const Contact = () => {
     <section id="contact" className="py-20 bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-4xl font-bold mb-8 bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">
-          Let's Work Together
+          Let&rsquo;s Work Together
         </h2>
         
         <p className="text-xl mb-12 text-gray-300 max-w-2xl mx-auto">
-          I'm always interested in new opportunities and interesting projects. 
-          Let's create something amazing together!
+          I&rsquo;m always interested in new opportunities and interesting projects. 
+          Let&rsquo;s create something amazing together!
         </p>
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center">
