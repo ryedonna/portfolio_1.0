@@ -201,7 +201,7 @@ export const portfolioData = {
         "A modern, responsive portfolio website built with Next.js 14 and TypeScript. Features a clean design with smooth animations, optimized images, contact form, and showcases projects and skills. Deployed with modern web development best practices.",
       icon: "💼",
       technologies: ["Next.js 14", "TypeScript", "Tailwind CSS", "React", "Vercel"],
-      liveUrl: "https://portfolio-ryedonnas-projects.vercel.app/",
+      liveUrl: "https://ryedonna-portfolio.vercel.app/",
       githubUrl: "#",
       image: "/images/project-portfolio.jpg",
     },
