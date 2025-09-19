@@ -1,17 +1,25 @@
-'use client'
+"use client";
 
-import Link from 'next/link'
-import { ExternalLink, Github } from 'lucide-react'
-import { portfolioData } from '@/data.ts/portfolio'
+import Link from "next/link";
+import { ExternalLink, Github } from "lucide-react";
+import { portfolioData } from "@/data.ts/portfolio";
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-20 bg-gray-50">
+    <section
+      id="projects"
+      className="py-20 bg-gray-50"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent">
-          Featured Projects
-        </h2>
-        
+        {/* Section Header */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Featured Projects</h2>
+          <div className="w-60 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full mb-6"></div>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            List of personal projects I have been working on
+          </p>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {portfolioData.projects.map((project, index) => (
             <div
@@ -22,15 +30,11 @@ const Projects = () => {
                 {project.icon}
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
               </div>
-              
+
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                  {project.title}
-                </h3>
-                <p className="text-gray-600 mb-4 text-sm">
-                  {project.description}
-                </p>
-                
+                <h3 className="text-xl font-semibold mb-3 text-gray-800">{project.title}</h3>
+                <p className="text-gray-600 mb-4 text-sm">{project.description}</p>
+
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech, techIndex) => (
                     <span
@@ -41,7 +45,7 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                
+
                 <div className="flex gap-3">
                   <Link
                     href={project.liveUrl}
@@ -64,7 +68,7 @@ const Projects = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
