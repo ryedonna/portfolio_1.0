@@ -10,9 +10,9 @@ export const portfolioData = {
   },
   about: {
     description: [
-      "I started my career as an intern in 2020, learning the fundamentals of frontend development, account relationship manager, and customer support. Over the past 4+ years, I&rsquo;ve grown from handling data entry and basic troubleshooting to developing complex frontend applications and leading interface redesigns.",
+      "I started my career as an intern in 2020, learning the fundamentals of frontend development, account relationship manager, and customer support. Over the past 4+ years, I've grown from handling data entry and basic troubleshooting to developing complex frontend applications and leading interface redesigns.",
       "My journey has taken me through customer success, data administration, and now frontend website development. This diverse background gives me a unique perspective on how technology impacts both end-users and business operations.",
-      "I understand what users need because I&rsquo;ve been in support roles, and I know how to build it because I&rsquo;ve developed the technical skills along the way. I believe in writing clean, maintainable code and staying up-to-date with the latest industry trends and best practices.",
+      "I understand what users need because I've been in support roles, and I know how to build it because I've developed the technical skills along the way. I believe in writing clean, maintainable code and staying up-to-date with the latest industry trends and best practices.",
     ],
   },
   careerJourney: [
@@ -36,7 +36,7 @@ export const portfolioData = {
       description:
         "Bridged technology and business operations. Developed Excel automation tools and built first business website. Gained valuable experience in client management.",
       achievements: [
-        "Built company&rsquo;s first business website",
+        "Built company's first business website",
         "Created Excel automation tools",
         "Managed key client relationships",
       ],
